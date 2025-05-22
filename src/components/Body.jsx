@@ -5,8 +5,8 @@ import MainContainer from './MainContainer'
 const Body = () => {
   return (
     <div>
-            <SideBar />
-            <MainContainer />
+      <SideBar />
+      <MainContainer />
     </div>
   )
 }

@@ -1,8 +1,9 @@
 import React from 'react'
+import BuutonList from './BuutonList'
 
 const MainContainer = () => {
   return (
-    <div>MainContainer</div>
+    <div><BuutonList /></div>
   )
 }
 

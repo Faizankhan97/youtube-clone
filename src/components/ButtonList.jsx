@@ -1,9 +1,19 @@
 import React from 'react'
+import Button from './Button'
 
-const BuutonList = () => {
+const ButtonList = () => {
   return (
-    <div>BuutonList</div>
+    <div className="flex">
+      <Button name="All"/>
+      <Button name="Gaming"/>
+      <Button name="Songs"/>
+      <Button name="Live"/>
+      <Button name="Soccer"/>
+      <Button name="Cricket"/>
+      <Button name="Cooking"/>
+      <Button name="News"/>
+    </div>
   )
 }
 
-export default BuutonList
+export default ButtonList

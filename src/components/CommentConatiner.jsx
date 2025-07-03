@@ -40,7 +40,7 @@ const commentData = [
 ];
 
 const Comment = ({ data }) => {
-  const { name, text, replies } = data;
+  const { name, text } = data;
   return (
     <div className="shadow-sm bg-gray-100 px-2 my-2">
       <p className="font-semibold">{name}</p>

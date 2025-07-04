@@ -11,6 +11,7 @@ const WatchPage = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(closeMenu());
+    console.log("closeMenu dispatched");
   }, []);
   return (
     <div className="flex flex-col w-full">
